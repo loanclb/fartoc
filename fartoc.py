@@ -2,7 +2,7 @@ def check_answer():
     answered = False
     while answered == False:
         answer = input("""
-          Que souhaites-tu calculer/convertir ? (poussée | cvtctof | cvtftoc | energy) :
+          Que souhaites-tu calculer/convertir ? (poussée | cvtctof | cvtftoc | energie) :
             >> """)
         if answer == "poussée":
             answered = True
