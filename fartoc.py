@@ -50,7 +50,7 @@ def checkFloat(num):
         float(num)
         return True
     except ValueError:
-        return ValueError
+        return False
 
 def checkStr(value):
     try:
